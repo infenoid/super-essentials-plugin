@@ -1,0 +1,67 @@
+name: SEssentials
+version: '1.0'
+main: org.local.test.SEssentials
+api-version: '1.21'
+author: xeeClown
+description: A simplified version of Essentials with a few commands.
+
+commands:
+  linkt:
+    description: Send a clickable link to a player.
+    usage: /linkt <player> <link>
+    permission: satwikessentials.linkt
+    
+  sethome:
+    description: Set your home location.
+    usage: /sethome
+    permission: satwikessentials.sethome
+
+  home:
+    description: Teleport to your home or get a compass to your home.
+    usage: /home [compass]
+    permission: satwikessentials.home
+
+  delhome:
+    description: Delete your set home.
+    usage: /delhome
+    permission: satwikessentials.delhome
+
+  traverse:
+    description: Request to teleport to another player.
+    usage: /tpa <player>
+    permission: satwikessentials.tpa
+
+  taccept:
+    description: Accept a teleport request.
+    usage: /tpaccept
+    permission: satwikessentials.tpaccept
+
+  tdeny:
+    description: Deny a teleport request.
+    usage: /tpdeny
+    permission: satwikessentials.tpdeny
+
+  there:
+    description: Request another player to teleport to you.
+    usage: /tpahere <player>
+    permission: satwikessentials.tpahere
+
+  chat:
+    description: Toggle between chat modes or display current mode.
+    usage: /chat [toggle/set <player>]
+    permission: satwikessentials.chat
+
+  afk:
+    description: Toggle AFK status.
+    usage: /afk
+    permission: satwikessentials.afk
+
+  msg:
+    description: Send a private message to another player.
+    usage: /msg <player> <message>
+    permission: satwikessentials.msg
+
+  fly:
+    description: Toggle flight mode.
+    usage: /fly
+    permission: satwikessentials.fly
